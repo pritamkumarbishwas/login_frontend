@@ -1,8 +1,35 @@
-# React + Vite
+# Login Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains the frontend implementation of a login and signup system using React. It includes user authentication features such as signup, signin, and logout functionalities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Signup:** Allows users to create a new account with their full name, email, and password. Passwords are securely hashed before being stored.
+- **Signin:** Provides existing users with access to their accounts using their registered email and password.
+- **Logout:** Allows users to securely logout from their accounts, clearing session data from local storage.
+
+## Technologies Used
+
+- React
+- Vite.js
+- Axios for API requests
+- React Router DOM for routing
+- Bootstrap for styling and responsiveness
+- React Toastify for notification messages
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+- npm install
+- npm run dev
+
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/pritamkumarbishwas/login_frontend.git

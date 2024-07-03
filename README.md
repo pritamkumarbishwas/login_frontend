@@ -11,6 +11,7 @@ This project contains the frontend implementation of a login and signup system u
 ## Technologies Used
 
 - React
+- Vite.js
 - Axios for API requests
 - React Router DOM for routing
 - Bootstrap for styling and responsiveness
@@ -23,6 +24,9 @@ To run this project locally, follow these steps:
 ### Prerequisites
 
 - Node.js and npm installed on your machine.
+- npm install
+- npm run dev
+
 
 ### Installation
 

@@ -11,7 +11,7 @@ This project contains the frontend implementation of a login and signup system u
 ## Technologies Used
 
 - React
-- Vite.js
+- Vite.js 
 - Axios for API requests
 - React Router DOM for routing
 - Bootstrap for styling and responsiveness

@@ -1,0 +1,471 @@
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-container {
+  background-color: #d4d1d1b5;
+  padding: 2rem;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.triangle-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: calc(62px * 2) solid transparent;
+  border-right: calc(75px * 2) solid transparent;
+  border-bottom: calc(83px * 2) solid #2BBBDB;
+  margin: 0 auto;
+  transform: translateY(-36%) rotate(-67deg);
+  position: absolute;
+  top: 69px;
+  left: 36%;
+  z-index: 1;
+}
+
+.form-on-triangle {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.signup-container h2 {
+  font-weight: 800;
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  height: 20px;
+  width: auto;
+}
+
+
+
+img {
+  display: flex;
+  top: 7px;
+  position: absolute;
+  left: 9px;
+}
+
+.input-icon-eye {
+  position: absolute;
+  height: 16px;
+  top: 11px;
+  width: auto;
+  right: 4% !important;
+  left: unset;
+}
+
+.input-icon-eye {
+  display: flex;
+}
+
+.log_icon {
+  width: 25px;
+  height: 20px;
+  left: 0;
+  display: flex;
+  top: 8px;
+  position: absolute;
+  left: 9px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.btn {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 142px;
+}
+
+.btn-primary {
+  background-color: #0078d4;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.body-trangel {
+  position: relative;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.comman_css {
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.triangle1 {
+  border-left: calc(62px * 2) solid transparent;
+  border-right: calc(75px * 2) solid transparent;
+  border-bottom: calc(83px * 2) solid #EFBC07;
+  transform: translateY(-36%) rotate(-68deg);
+  top: 32%;
+  left: -8%;
+}
+
+.triangle2 {
+  border-left: calc(30px * 2) solid transparent;
+  border-right: calc(30px * 2) solid transparent;
+  border-bottom: calc(30px * 2) solid #35B092;
+  transform: translateY(-34%) rotate(-315deg);
+  top: 1%;
+  left: 31%;
+}
+
+.triangle3 {
+  border-left: calc(90px * 2) solid transparent;
+  border-right: calc(90px * 2) solid transparent;
+  border-top: calc(90px * 2) solid #FDDD6F;
+  top: -10%;
+  right: -10%;
+  transform: rotate(244deg);
+}
+
+.triangle4 {
+  border-left: calc(19px * 2) solid transparent;
+  border-right: calc(22.5px * 2) solid transparent;
+  border-top: calc(36px * 2) solid #DBD42B;
+  top: 39%;
+  left: 74%;
+  transform: rotate(234deg);
+}
+
+.triangle5 {
+  border-left: calc(28px * 2) solid transparent;
+  border-right: calc(38px * 2) solid transparent;
+  border-top: calc(47px * 2) solid #F7C104;
+  top: 65%;
+  right: -4%;
+  transform: rotate(219deg);
+}
+
+.triangle6 {
+  border-left: calc(22px * 2) solid transparent;
+  border-right: calc(24px * 2) solid transparent;
+  border-top: calc(47px * 2) solid #DBD42B;
+  top: 57%;
+  left: 30%;
+  transform: rotate(236deg);
+}
+
+.triangle7 {
+  border-left: calc(38.5px * 2) solid transparent;
+  border-right: calc(50px * 2) solid transparent;
+  border-top: calc(76px * 2) solid #F8DD7E;
+  bottom: -5%;
+  left: -5%;
+  transform: rotate(236deg);
+}
+
+.triangle8 {
+  border-left: calc(17px * 2) solid transparent;
+  border-right: calc(17px * 2) solid transparent;
+  border-top: calc(32.5px * 2) solid #CBE90F;
+  bottom: 11%;
+  left: 43%;
+  transform: rotate(178deg);
+}
+
+.triangle9 {
+  border-left: calc(50px * 2) solid transparent;
+  border-right: calc(50px * 2) solid transparent;
+  border-top: calc(50px * 2) solid #35B092;
+  bottom: -7%;
+  left: 56%;
+  transform: rotate(212deg);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+  .triangle1 {
+    border-left: calc(62px * 1.5) solid transparent;
+    border-right: calc(75px * 1.5) solid transparent;
+    border-bottom: calc(83px * 1.5) solid #EFBC07;
+    top: 28%;
+    left: -6%;
+  }
+
+  .triangle2 {
+    border-left: calc(30px * 1.5) solid transparent;
+    border-right: calc(30px * 1.5) solid transparent;
+    border-bottom: calc(30px * 1.5) solid #35B092;
+    top: 3%;
+    left: 28%;
+  }
+
+  .triangle3 {
+    border-left: calc(90px * 1.5) solid transparent;
+    border-right: calc(90px * 1.5) solid transparent;
+    border-top: calc(90px * 1.5) solid #FDDD6F;
+    top: -8%;
+    right: -8%;
+  }
+
+  .triangle4 {
+    border-left: calc(19px * 1.5) solid transparent;
+    border-right: calc(22.5px * 1.5) solid transparent;
+    border-top: calc(36px * 1.5) solid #DBD42B;
+    top: 35%;
+    left: 70%;
+  }
+
+  .triangle5 {
+    border-left: calc(28px * 1.5) solid transparent;
+    border-right: calc(38px * 1.5) solid transparent;
+    border-top: calc(47px * 1.5) solid #F7C104;
+    top: 62%;
+    right: -2%;
+  }
+
+  .triangle6 {
+    border-left: calc(22px * 1.5) solid transparent;
+    border-right: calc(24px * 1.5) solid transparent;
+    border-top: calc(47px * 1.5) solid #DBD42B;
+    top: 54%;
+    left: 30%;
+  }
+
+  .triangle7 {
+    border-left: calc(38.5px * 1.5) solid transparent;
+    border-right: calc(50px * 1.5) solid transparent;
+    border-top: calc(76px * 1.5) solid #F8DD7E;
+    bottom: -3%;
+    left: -3%;
+  }
+
+  .triangle8 {
+    border-left: calc(17px * 1.5) solid transparent;
+    border-right: calc(17px * 1.5) solid transparent;
+    border-top: calc(32.5px * 1.5) solid #CBE90F;
+    bottom: 13%;
+    left: 41%;
+  }
+
+  .triangle9 {
+    border-left: calc(50px * 1.5) solid transparent;
+    border-right: calc(50px * 1.5) solid transparent;
+    border-top: calc(50px * 1.5) solid #35B092;
+    bottom: -5%;
+    left: 54%;
+  }
+}
+
+@media (max-width: 800px) {
+  .triangle1 {
+    border-left: calc(62px * 1) solid transparent;
+    border-right: calc(75px * 1) solid transparent;
+    border-bottom: calc(83px * 1) solid #EFBC07;
+    top: 25%;
+    left: -4%;
+  }
+
+  .triangle2 {
+    border-left: calc(30px * 1) solid transparent;
+    border-right: calc(30px * 1) solid transparent;
+    border-bottom: calc(30px * 1) solid #35B092;
+    top: 5%;
+    left: 25%;
+  }
+
+  .triangle3 {
+    border-left: calc(90px * 1) solid transparent;
+    border-right: calc(90px * 1) solid transparent;
+    border-top: calc(90px * 1) solid #FDDD6F;
+    top: -6%;
+    right: -6%;
+  }
+
+  .triangle4 {
+    border-left: calc(19px * 1) solid transparent;
+    border-right: calc(22.5px * 1) solid transparent;
+    border-top: calc(36px * 1) solid #DBD42B;
+    top: 31%;
+    left: 66%;
+  }
+
+  .triangle5 {
+    border-left: calc(28px * 1) solid transparent;
+    border-right: calc(38px * 1) solid transparent;
+    border-top: calc(47px * 1) solid #F7C104;
+    top: 59%;
+    right: 0%;
+  }
+
+  .triangle6 {
+    border-left: calc(22px * 1) solid transparent;
+    border-right: calc(24px * 1) solid transparent;
+    border-top: calc(47px * 1) solid #DBD42B;
+    top: 50%;
+    left: 27%;
+  }
+
+  .triangle7 {
+    border-left: calc(38.5px * 1) solid transparent;
+    border-right: calc(50px * 1) solid transparent;
+    border-top: calc(76px * 1) solid #F8DD7E;
+    bottom: -2%;
+    left: -2%;
+  }
+
+  .triangle8 {
+    border-left: calc(17px * 1) solid transparent;
+    border-right: calc(17px * 1) solid transparent;
+    border-top: calc(32.5px * 1) solid #CBE90F;
+    bottom: 14%;
+    left: 38%;
+  }
+
+  .triangle9 {
+    border-left: calc(50px * 1) solid transparent;
+    border-right: calc(50px * 1) solid transparent;
+    border-top: calc(50px * 1) solid #35B092;
+    bottom: -4%;
+    left: 52%;
+  }
+}
+
+@media (max-width: 400px) {
+  .triangle1 {
+    border-left: calc(62px * 0.75) solid transparent;
+    border-right: calc(75px * 0.75) solid transparent;
+    border-bottom: calc(83px * 0.75) solid #EFBC07;
+    top: 18%;
+    left: 2%;
+  }
+
+  .triangle2 {
+    border-left: calc(30px * 0.75) solid transparent;
+    border-right: calc(30px * 0.75) solid transparent;
+    border-bottom: calc(30px * 0.75) solid #35B092;
+    top: 11%;
+    left: 18%;
+  }
+
+  .triangle3 {
+    border-left: calc(90px * 0.75) solid transparent;
+    border-right: calc(90px * 0.75) solid transparent;
+    border-top: calc(90px * 0.75) solid #FDDD6F;
+    top: 0%;
+    right: 0%;
+  }
+
+  .triangle4 {
+    border-left: calc(19px * 0.75) solid transparent;
+    border-right: calc(22.5px * 0.75) solid transparent;
+    border-top: calc(36px * 0.75) solid #DBD42B;
+    top: 15%;
+    left: 50%;
+  }
+
+  .triangle5 {
+    border-left: calc(28px * 0.75) solid transparent;
+    border-right: calc(38px * 0.75) solid transparent;
+    border-top: calc(47px * 0.75) solid #F7C104;
+    top: 52%;
+    right: 5%;
+  }
+
+  .triangle6 {
+    border-left: calc(22px * 0.75) solid transparent;
+    border-right: calc(24px * 0.75) solid transparent;
+    border-top: calc(47px * 0.75) solid #DBD42B;
+    top: 45%;
+    left: 20%;
+  }
+
+  .triangle7 {
+    border-left: calc(38.5px * 0.75) solid transparent;
+    border-right: calc(50px * 0.75) solid transparent;
+    border-top: calc(76px * 0.75) solid #F8DD7E;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  .triangle8 {
+    border-left: calc(17px * 0.75) solid transparent;
+    border-right: calc(17px * 0.75) solid transparent;
+    border-top: calc(32.5px * 0.75) solid #CBE90F;
+    bottom: 16%;
+    left: 34%;
+  }
+
+  .triangle9 {
+    border-left: calc(50px * 0.75) solid transparent;
+    border-right: calc(50px * 0.75) solid transparent;
+    border-top: calc(50px * 0.75) solid #35B092;
+    bottom: -2%;
+    left: 46%;
+  }
+}

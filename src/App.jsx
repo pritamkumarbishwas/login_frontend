@@ -6,11 +6,12 @@ import Home from './components/Home';
 import './index.css';
 
 export const config = {
-  endpoint: `https://login-assignment-4v4o.onrender.com/api/v1/`,
+  endpoint: "https://login-assignment-4v4o.onrender.com/api/v1/"
 };
 
 function App() {
   return (
+
     <Router>
       <Routes>
         <Route path="/" element={<Signup />} />
